@@ -1,0 +1,38 @@
+<h1> Займ </h1>
+<table>
+  <tbody>
+    <tr>
+      <td>Тип займа</td>
+      <td><%= @loan.type %></td>
+    </tr>
+    <tr>
+      <td>Сумма займа</td>
+      <td><%= @loan.amount %></td>
+    </tr>
+    <tr>
+      <td>Первоначальный взнос </td>
+      <td><%= @loan.downpayment %></td>
+    </tr>
+    <tr>
+      <td>Ежемесячный платеж</td>
+      <td><%= @loan.monthly_payment %></td>
+    </tr>
+    <tr>
+      <td>Срок кредита</td>
+      <td><%= @loan.term %></td>
+    </tr>
+    <tr>
+      <td>Сумма выплат</td>
+      <td><%= @loan.payment %></td>
+    </tr>
+    <tr>
+      <td>Страхование</td>
+      <td><%= @loan.insurances %></td>
+    </tr>
+    <tr>
+      <td>Стоимость страхования</td>
+      <td><%= @loan.insurance_amount %></td>
+    </tr>
+  </tbody>
+</table>
+
